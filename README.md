@@ -1,2 +1,2 @@
-# Education
-Educational site
+# edu
+https://aniketu28.github.io/edu/

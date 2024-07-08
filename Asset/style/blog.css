@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Questrial", sans-serif;
+
+}
+
+section.Blog-section {
+    padding: 20px 0px 80px;
+}
+
+.subscribe-blog {
+    width: 100%;
+    background: #f8f8f8 !important;
+    border-radius: 8px !important;
+    padding: 10px 10px 10px 20px !important;
+    box-shadow: none !important;
+}
+
+input.newsletter-firstname.input-text {
+    padding: 10px 0px 10px;
+    border: none;
+    outline: none !important;
+    background-color: #f8f8f8 !important;
+}
+
+
+.Trial-blog {
+    padding: 10px 15px;
+    background-color: rgb(255 126 132) !important;
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.subscribe-blog-2{
+    width: 100%;
+    background: #f8f8f8 !important;
+    border-radius: 8px !important;
+    padding: 20px !important;
+    box-shadow: none !important;
+}
+
+.subscribe-blog-2:hover{
+   
+     background-color: rgb(255 126 132) !important;
+}
+
+span.Categories-tab {
+    font-size: 18px;
+    color: rgb(126 126 141);
+}
+
+.subscribe-blog-2:hover span.Categories-tab{
+    color: rgb(255, 255, 255);
+}
+
+#course-title-1{
+    margin-left:5px;
+}
+
+
+@media screen and (max-width:1024px){
+
+    section.Blog-section .row{
+
+         margin-top:0px !important;
+    }
+
+    div#blog-card {
+        width: 47% !important;
+    }
+
+    .Course-card-flex {
+        gap: 54px;
+    }
+    
+}
+
+
+@media screen and (max-width:768px){
+
+    div#blog-card {
+        width: 47% !important;
+    }
+
+    .Course-card-flex {
+        gap:43px;
+    }
+
+    .subscribe-blog {
+        width: 660px !important;  
+    }
+    .subscribe-blog-2{
+        width: 660px !important;
+    }
+    
+}
+
+
+@media screen and (max-width:767px){
+
+    section.Blog-section {
+        padding: 20px 0px 50px;
+    }
+
+    section.Blog-section .row {
+        margin-top: -15px !important;
+    }
+
+    div#blog-card {
+        width: 100% !important;
+    }
+    .Course-card-flex {
+        gap: 20px;
+    }
+    .subscribe-blog {
+        width: 325px !important;  
+    }
+    .subscribe-blog-2{
+        width:325px !important;
+    }
+    
+}

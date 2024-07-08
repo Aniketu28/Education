@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Questrial", sans-serif;
+
+}
+
+.Topics-about-page{
+
+    width: 100%;
+    min-height: 350px !important;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.abot-sec-1-img {
+    width: 575px;
+    height: 600px;
+}
+
+img.our-img {
+    padding: 20px;
+    background:white;
+    border-radius: 50%;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.06);
+}
+
+.Build-Career{
+
+    width: 100%;
+    padding:100px 0px;
+    background: url("../images/bg-about-sec-4.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.build-left {
+
+    width: 556px;
+    height: 357px;
+    padding:40px;
+    background-image: url("../images/bg-ins-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.build-right {
+
+    width: 556px;
+    height: 357px;
+    padding:40px;
+    background-image: url("../images/bg-ins-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+h6#build-small-text {
+    margin-top: 20px;
+}
+
+h3#build-heading {
+    font-size: 34px;
+}
+
+h3.about-heading span {
+    font-size: 34px;
+    font-weight: 700;
+    color: #ff7e84;
+    position: relative;
+}
+
+p#build-para {
+    width: 272px;
+}
+
+button#build-btn {
+    background: black !important;
+    color: white;
+}
+
+.build-banner{
+    width: 100%;
+    padding:100px 0px;
+    background: url("../images/section-bg-7.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width:1024px) {
+
+    img.abot-sec-1-img {
+        width: 420px;
+        height: 450px;
+    }
+    
+    section.Build-Career .row {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .build-left {
+        width: 900px;
+    }
+
+    .build-right {
+        width:900px;
+    }
+
+    .Build-Career {
+        padding: 60px 0px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .Topics-about-page {
+        padding: 70px 0px;
+    }
+  
+    .build-left {
+        width:720px;
+    }
+
+    .build-right {
+        width: 720px;
+    }
+
+    .Build-Career {
+        padding: 60px 0px;
+    }
+
+    .build-banner {
+       display: none;
+    }
+
+    section.Build-Career .row {
+        gap: 40px;
+    }
+
+    section.Expert {
+        padding: 20px 0px 55px;
+    }
+
+    img.abot-sec-1-img {
+        width: 700px;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+    img.abot-sec-1-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .build-left {
+        width: 390px;
+        padding: 30px;
+        height: 300px;
+    }
+
+    .build-right {
+        width: 390px;
+        padding: 30px;
+        height: 300px;
+    }
+
+    h3#build-heading {
+        font-size:30px;
+    }
+    h3.about-heading span {
+        font-size: 30px;
+    }
+
+    .build-left {
+        width: 390px;
+        padding: 30px;
+        height: 300px;
+        background: #ffe8e8;
+    }
+
+    .build-right {
+        width: 390px;
+        padding: 30px;
+        height: 300px;
+        background: #e3f9f6;
+    }
+
+    .Build-Career {
+        padding: 40px 0px;
+    }
+
+    section.Expert {
+        padding: 0px 0px 55px;
+    }
+}
